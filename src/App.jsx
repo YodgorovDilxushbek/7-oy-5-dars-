@@ -45,12 +45,7 @@ function App() {
           <Route path="/register" element={<Register />} />
         </Routes>
       </main>
-      <footer className="bg-gray-800 text-gray-400 text-center py-4 mt-10">
-        <p>
-          &copy; {new Date().getFullYear()} Counter App. Built with{' '}
-          <span className="text-blue-400">React</span>.
-        </p>
-      </footer>
+    
     </div>
   );
 }
